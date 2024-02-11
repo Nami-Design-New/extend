@@ -42,7 +42,7 @@
   background: #292c2e;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #141516;
+  background-color: #404041;
   outline: none;
   border-radius: 20px !important;
 }
@@ -352,6 +352,10 @@ header {
     justify-content: center;
     flex-direction: column;
     gap: 16px;
+    .lazyDiv {
+      width: 100%;
+      aspect-ratio: 1/1;
+    }
     .lazyImg {
       position: relative;
       &::before {
@@ -368,6 +372,7 @@ header {
         background-size: 400% 400%;
         animation: gradient 4s ease infinite;
       }
+      video,
       img {
         width: 100%;
         aspect-ratio: 1/1;

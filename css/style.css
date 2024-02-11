@@ -45,7 +45,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #141516;
+  background-color: #404041;
   outline: none;
   border-radius: 20px !important;
 }
@@ -383,6 +383,10 @@ header .RSVP:hover {
   flex-direction: column;
   gap: 16px;
 }
+.hearo .side .lazyDiv {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 .hearo .side .lazyImg {
   position: relative;
 }
@@ -400,6 +404,7 @@ header .RSVP:hover {
   background-size: 400% 400%;
   animation: gradient 4s ease infinite;
 }
+.hearo .side .lazyImg video,
 .hearo .side .lazyImg img {
   width: 100%;
   aspect-ratio: 1/1;
