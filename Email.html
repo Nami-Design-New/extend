@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Primary Meta Tags -->
+  <title> Extend Email </title>
+  <meta name="title" content=" Extend Email ">
+  <meta name="description" content="">
+  <style>
+    @font-face {
+      font-family: fontBold;
+      font-display: swap;
+      src: url(../webfonts/29ltkaff-bold.woff2);
+    }
+    * {
+      font-family: "fontBold", sans-serif;
+
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      outline: none;
+      scroll-behavior: smooth;
+      direction: rtl;
+    }
+
+    body {
+      background-image: url(img/Guests_BG.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      aspect-ratio: 1/1.79166666667;
+      padding: 44% 15% 55%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      gap: 4vw;
+      padding: 3%;
+    }
+
+    .name {
+      text-align: center;
+      color: white;
+      font-size: 7vw;
+    }
+
+
+    .qrCode {
+      width: 100%;
+      aspect-ratio: 1/1;
+      padding: 3%;
+      border: 1vw solid #f49d44;
+      flex: 1;
+      object-fit: contain;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="name"> محمود جمال الكومي </h1>
+    <img class="qrCode" src="img/qrCode.png" alt="">
+  </div>
+</body>
+
+</html>
